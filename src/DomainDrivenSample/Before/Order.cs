@@ -17,6 +17,9 @@ namespace DomainDrivenSample.Before
         {
             #region save logic will go here...
             #endregion
+
+            #region This is an Anemic Domain Model - anyone can create an instance in any state and call Update()
+            #endregion
         }
     }
 
